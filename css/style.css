@@ -565,10 +565,12 @@ span {
 
 
 .footer {
+    min-height: auto;
+    /* padding: 2rem 9%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .2rem 9%;
+    padding: 2rem 9%;
     background: var(--second-bg-color);
 }
 
